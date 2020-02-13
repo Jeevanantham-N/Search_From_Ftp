@@ -41,8 +41,8 @@ def csv_location(csv_list):
     with open(filepath,'r',newline='',errors='replace') as print_:
         reader = csv.reader(print_)
         reader = list(reader)
-        #for i in reader:
-        #    print(i)
+        for i in reader:
+            print(i)
 
 
 if __name__ == '__main__':
